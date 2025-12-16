@@ -1,4 +1,4 @@
-package daw.dac;
+package eu.cifpfbmoll;
 
 /**
  * Hello world!

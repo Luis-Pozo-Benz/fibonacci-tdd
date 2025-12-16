@@ -1,4 +1,4 @@
-package daw.dac;
+package eu.cifpfbmoll;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
