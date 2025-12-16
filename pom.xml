@@ -3,7 +3,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>daw.dac</groupId>
+  <groupId>eu.cifpfbmoll</groupId>
   <artifactId>fibonacci-tdd</artifactId>
   <version>1.0-SNAPSHOT</version>
 
@@ -84,16 +84,18 @@
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.6.1</version>
         </plugin>
+        <plugin>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>3.4.2</version>
+        <configuration>
+          <archive>
+            <manifest>
+              <mainClass>eu.cifpfbmoll.App</mainClass>
+            </manifest>
+          </archive>
+        </configuration>
+      </plugin>
       </plugins>
     </pluginManagement>
   </build>
-  <dependency>
-
-    <groupId>org.junit.jupiter</groupId>
-
-    <artifactId>junit-jupiter-params</artifactId>
-
-    <scope>test</scope>
-
-  </dependency>
 </project>
