@@ -16,4 +16,13 @@ class FibonacciTest {
 
     }
 
+    @Test
+
+    void fibonacciOfOneIsOne() {
+
+        assertEquals(1, fibonacci.calculate(1));
+
+    }
+
+
 }
