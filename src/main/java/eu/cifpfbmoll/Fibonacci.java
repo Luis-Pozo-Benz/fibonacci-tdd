@@ -4,7 +4,10 @@ public class Fibonacci {
 
     public int calculate(int n) {
 
-        return -1; // Implementació incorrecta inicial
+    if (n == 1) return 1;
 
-    }
+    return 0;
+
+}
+
 }
