@@ -3,6 +3,11 @@ package eu.cifpfbmoll;
 public class Fibonacci {
 
     public int calculate(int n) {
+         if (n < 0) {
+
+            throw new IllegalArgumentException("Només s'accepten enters iguals o majors que zero");
+
+        }
 
         if (n <= 1) {
 
